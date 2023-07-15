@@ -338,7 +338,7 @@ onUiLoaded(() => {
 
     // get all extra network tabs
     let tab_prefix_list = ["txt2img", "img2img"];
-    let model_type_list = ["textual_inversion", "hypernetworks", "checkpoints", "lora", "lycoris"];
+    let model_type_list = ["textual_inversion", "hypernetworks", "checkpoints", "lora"];
     let cardid_suffix = "cards";
 
     //get init py msg
@@ -450,9 +450,6 @@ onUiLoaded(() => {
                 case "lora":
                     active_extra_tab_type = "lora";
                     break;
-				case "lycoris":
-                    active_extra_tab_type = "lycoris";
-                    break;
             }
 
 
@@ -470,9 +467,6 @@ onUiLoaded(() => {
                         break;
                     case "lora":
                         model_type = "lora";
-                        break;
-					 case "lycoris":
-                        model_type = "lycoris";
                         break;
                 }
 

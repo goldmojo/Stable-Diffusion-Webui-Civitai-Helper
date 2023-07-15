@@ -17,7 +17,6 @@ folders = {
     "hyper": os.path.join(root_path, "models", "hypernetworks"),
     "ckp": os.path.join(root_path, "models", "Stable-diffusion"),
     "lora": os.path.join(root_path, "models", "Lora"),
-	"lycoris": os.path.join(root_path, "models", "LyCORIS"),
 }
 
 exts = (".bin", ".pt", ".safetensors", ".ckpt")
